@@ -1,5 +1,5 @@
 # Overview
-Custom neovim shortcuts, dependencies and configs
+Backup for my neovim shortcuts, dependencies and configs
 
 # How to use
 Install neovim \
