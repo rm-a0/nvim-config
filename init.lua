@@ -87,6 +87,9 @@ P.S. You can delete this when you're done too. It's your config now! :)
 -- Set <space> as the leader key
 -- See `:help mapleader`
 --  NOTE: Must happen before plugins are loaded (otherwise wrong leader will be used)
+vim.o.tabstop = 4
+vim.o.shiftwidth = 4
+vim.o.expandtab = true
 vim.g.mapleader = " "
 vim.g.maplocalleader = " "
 
@@ -167,12 +170,12 @@ vim.keymap.set("n", "<leader>e", vim.diagnostic.open_float, { desc = "Show diagn
 vim.keymap.set("n", "<leader>q", vim.diagnostic.setloclist, { desc = "Open diagnostic [Q]uickfix list" })
 
 -- [[ CUSTOM KEYMAPS ]
+-- Remap Caps Lock to Escape
 -- [[ NORMAL MODE ]]
-vim.keymap.set("n", "r", "<C-r>")
 -- [[ VISUAL MODE ]]
 
 -- [[ INSERT MODE ]]
-vim.keymap.set("i", "jj", "<Esc>")
+vim.keymap.set("i", "jk", "<Esc>")
 -------------------------
 
 -- Exit terminal mode in the builtin terminal with a shortcut that is a bit easier
