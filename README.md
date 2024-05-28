@@ -6,23 +6,26 @@ Backup for my neovim shortcuts, dependencies and configs
 File from [kickstart.nvim](https://github.com/nvim-lua/kickstart.nvim) repository with additional themes and keybinds
 
 - Themes
-    - Github dark default
+    - [Github Dark Default](https://github.com/projekt0n/github-nvim-theme)
+  
+- Add-ons
+   - Transparent Background - Windows terminal opacity didnt affect Neovim inside of WSL so i added script that makes background in Neovim transparent
 
 - Commands (will try to update)
     | Mode   | Command | Action            |
     |--------|---------|-------------------|
     | Insert | `jk`    | quit insert mode  |
-
-### wsl-dep.lua
-Add-on that makes background transparent (only works when the terminal backgorund is transparent too). \
-Since transparency on Windows terminal doesnt affect Neovim I created this file.
-
+  
 # How to use
 Copy __init.lua__ to
 ```
 ~/.config/nvim
 ```
-If you are using wsl with transparent background, add __wsl-dep.lua__ to the same directory and uncomment this in __init.lua__
+If you are not using WSL with transparent background, remove this from __init.lua__
 ```lua
--- require('wsl-dep')
+vim.cmd([[
+augroup TransparentBackground
+    autocmd!
+    ...
+]])
 ```
