@@ -22,7 +22,7 @@
 --]]
 
 -- TRANSPARENT BG FOR WSL
-require('wsl-dep')
+-- require('wsl-dep')
 
 
 -- Set <space> as the leader key
