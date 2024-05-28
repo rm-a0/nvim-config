@@ -5,13 +5,13 @@ Backup for my neovim shortcuts, dependencies and configs
 ### init.lua
 File from [kickstart.nvim](https://github.com/nvim-lua/kickstart.nvim) repository with additional themes and keybinds
 
-- Themes \
-Github dark default
+- Themes
+    - Github dark default
 
-- Commands (will try to update) \
-| Mode      | Command | Action                 |
-|-----------|---------|------------------------|
-| Insert    | `jk`    | quit insert mode       |
+- Commands (will try to update)
+    | Mode   | Command | Action            |
+    |--------|---------|-------------------|
+    | Insert | `jk`    | quit insert mode  |
 
 ### wsl-dep.lua
 File that makes background transparent (only works when the terminal backgorund is transparent too). \
