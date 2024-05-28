@@ -1,6 +1,18 @@
 # Overview
 Backup for my neovim shortcuts, dependencies and configs
 
+# Contents
+## init.lua
+File from [kickstart.nvim](https://github.com/nvim-lua/kickstart.nvim) repository with additional themes and keybinds
+
+### Themes
+Github dark default
+
+### Commands (will try to update)
+| Mode | Command | Action                 |
+|------|---------|------------------------|
+| I    | `jk`    | quit insert mode       |
+
 # How to use
 Copy __init.lua__ to
 ```
