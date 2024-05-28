@@ -9,9 +9,13 @@ File from [kickstart.nvim](https://github.com/nvim-lua/kickstart.nvim) repositor
 Github dark default
 
 ### Commands (will try to update)
-| Mode | Command | Action                 |
-|------|---------|------------------------|
-| I    | `jk`    | quit insert mode       |
+| Mode      | Command | Action                 |
+|-----------|---------|------------------------|
+| Insert    | `jk`    | quit insert mode       |
+
+## wsl-dep.lua
+File that makes background transparent (only works when the terminal backgorund is transparent too). \
+Since transparency on Windows terminal doesnt affect Neovim I created this file.
 
 # How to use
 Copy __init.lua__ to
