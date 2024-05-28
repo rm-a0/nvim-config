@@ -2,7 +2,7 @@
 Backup for my neovim shortcuts, dependencies and configs
 
 # Contents
-## init.lua
+### __init.lua__
 File from [kickstart.nvim](https://github.com/nvim-lua/kickstart.nvim) repository with additional themes and keybinds
 
 ### Themes
