@@ -5,10 +5,10 @@ Backup for my neovim shortcuts, dependencies and configs
 ### init.lua
 File from [kickstart.nvim](https://github.com/nvim-lua/kickstart.nvim) repository with additional themes and keybinds
 
-- Themes
+- Themes \
 Github dark default
 
-- Commands (will try to update)
+- Commands (will try to update) \
 | Mode      | Command | Action                 |
 |-----------|---------|------------------------|
 | Insert    | `jk`    | quit insert mode       |
