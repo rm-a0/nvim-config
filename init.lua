@@ -84,6 +84,16 @@ I hope you enjoy your Neovim journey,
 P.S. You can delete this when you're done too. It's your config now! :)
 --]]
 
+-- FOR WSL ON MY WINDOWS LAPTOP
+vim.cmd [[
+augroup TransparentBackground
+  autocmd!
+  autocmd ColorScheme * highlight Normal ctermbg=NONE guibg=NONE
+  autocmd ColorScheme * highlight NonText ctermbg=NONE guibg=NONE
+augroup END
+]]
+
+
 -- Set <space> as the leader key
 -- See `:help mapleader`
 --  NOTE: Must happen before plugins are loaded (otherwise wrong leader will be used)
