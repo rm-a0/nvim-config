@@ -40,7 +40,6 @@ augroup TransparentBackground
   autocmd BufWinEnter * highlight NormalNC ctermbg=NONE guibg=NONE
 augroup END
 ]])
-
 --[[
 
 =====================================================================
@@ -857,7 +856,10 @@ require("lazy").setup({
 			-- Like many other themes, this one has different styles, and you could load
 			-- any other, such as 'tokyonight-storm', 'tokyonight-moon', or 'tokyonight-day'.
 			vim.cmd.colorscheme("rose-pine")
-
+			local bg_brighter = "#232136"
+			local bg_main_debian = "#030615"
+			local bg_black = "#000000"
+			-- vim.api.nvim_set_hl(0, "Normal", { bg = bg_debian, fg = "#ffffff" })
 			-- You can configure highlights by doing something like:
 			vim.cmd.hi("Comment gui=none")
 		end,
