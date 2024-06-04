@@ -6,7 +6,9 @@ Backup for my neovim shortcuts, dependencies and configs
 File from [kickstart.nvim](https://github.com/nvim-lua/kickstart.nvim) repository with additional themes and keybinds
 
 - Themes
-    - [Github Dark Default](https://github.com/projekt0n/github-nvim-theme)
+    - Pre-Installed Themes from Kickstart
+    - Github Themes
+    - Rose Pine Themes
   
 - Add-ons
    - Transparent Background - Windows terminal opacity didnt affect Neovim inside of WSL so i added script that makes background in Neovim transparent
