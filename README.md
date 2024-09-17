@@ -1,4 +1,4 @@
-j# Overview
+# Overview
 Backup for my neovim shortcuts, dependencies and configs
 
 # Contents
